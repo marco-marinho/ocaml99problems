@@ -1,0 +1,29 @@
+(executable
+ (public_name problems99)
+ (name tail_of_a_list)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name last_two_elements)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name nth)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name list_length)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name list_rev)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name palindrome)
+ (libraries problems99))
