@@ -47,3 +47,8 @@
  (public_name problems99)
  (name run_length_encoding)
  (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name modified_run_length_encoding)
+ (libraries problems99))
