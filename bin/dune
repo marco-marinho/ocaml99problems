@@ -37,3 +37,13 @@
  (public_name problems99)
  (name eliminate_duplicate)
  (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name pack_consecutive_duplicate)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name run_length_encoding)
+ (libraries problems99))
