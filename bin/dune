@@ -27,3 +27,13 @@
  (public_name problems99)
  (name palindrome)
  (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name flatten_a_list)
+ (libraries problems99))
+
+(executable
+ (public_name problems99)
+ (name eliminate_duplicate)
+ (libraries problems99))
