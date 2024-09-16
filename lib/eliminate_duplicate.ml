@@ -7,6 +7,3 @@ let eliminate_duplicates lst =
   in
   List.rev (aux [] lst None)
 
-let test = ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "e"; "e"; "e"; "e"]
-
-let _ = List.iter print_string (eliminate_duplicates test)

@@ -1,2 +1,2 @@
 (library
- (name problems99))
+ (name problems99_lib))
