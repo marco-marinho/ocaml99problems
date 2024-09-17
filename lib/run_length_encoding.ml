@@ -8,9 +8,3 @@ let encode lst =
   in
   List.rev (aux [] 0 lst)
 
-let print_tuple = function
-  | (value, count ) -> (Printf.printf "(%s, %d) " value count)
-
-let test_list = ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "e"; "e"; "e"; "e"]
-
-let _ = List.iter print_tuple (encode test_list)
