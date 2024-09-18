@@ -99,3 +99,43 @@ let _ = print_string "17 - Split list into two: ";
       print_endline "";
       List.iter (Printf.printf "%s, ") y;
       print_endline "";;
+
+let _ = print_string "18 - List Slice: ";
+      List.iter (Printf.printf "%s, ") (Slice_of_a_list.slice 3 7 test_list);
+      print_endline "";;
+
+let _ = print_string "19 - Rotate List : ";
+      List.iter (Printf.printf "%s, ") (Rotate_list_n.rotate 4 test_list);
+      print_endline "";;
+
+let _ = print_string "20 - Remove nth element: ";
+      List.iter (Printf.printf "%s, ") (Remove_n_element.remove 4 test_list);
+      print_endline "";;
+
+let _ = print_string "21 - Insert element: ";
+      List.iter (Printf.printf "%s, ") (Insert_element.insert "rato" 4 test_list);
+      print_endline "";;
+
+let _ = print_string "22 - Integer range: ";
+      print_endline "";
+      List.iter (Printf.printf "%d, ") (Interger_in_range.get_range 6 10);
+      print_endline "";
+      List.iter (Printf.printf "%d, ") (Interger_in_range.get_range 10 6);
+      print_endline "";;
+
+Random.self_init ();;
+  
+let _ = print_string "23 - Random elements: ";
+      List.iter (Printf.printf "%s, ") (Random_elements.get 3 test_list);
+      print_endline "";;
+
+
+let _ = print_string "24 - Draw N: ";
+      List.iter (Printf.printf "%d, ") (Draw_n.draw 3 10);
+      print_endline "";;
+      
+
+let _ = print_string "25 - Random list perm: ";
+      List.iter (Printf.printf "%s, ") (Random_perm.perm test_list);
+      print_endline "";;
+      
