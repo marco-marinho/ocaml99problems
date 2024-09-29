@@ -6,6 +6,4 @@ let rec is_mirror n1 n2 =
   | Node (_, l1, r1), Node (_, l2, r2) -> is_mirror l1 r2 && is_mirror l2 r1
   | _ -> false
 
-let rec is_symmetric = function
-  | Empty -> true
-  | Node (_, l, r) -> is_mirror l r
+let is_symmetric = function Empty -> true | Node (_, l, r) -> is_mirror l r
